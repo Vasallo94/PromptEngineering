@@ -1,116 +1,26 @@
 listing_id,name,description,text,gpt_response
 35759076.0,Bright flat in Montreal - Appartement lumineux,"Bright 2 bedroom flat in a friendly and authentic neighborhood! All you need within a short walk to the animated local commercial street. Quickly get to Montreal's best faculties and activities by bus, metro or bike, many options available. Live Montreal like a local! <br />Bright apartment on the second floor of a duplex in a central area of Montreal. Family atmosphere, commercial street just a stone's throw away. Quick and easy access to universities and activities  by bus, metro, or bike.","Bright flat in Montreal - Appartement lumineux
-Bright 2 bedroom flat in a friendly and authentic neighborhood! All you need within a short walk to the animated local commercial street. Quickly get to Montreal's best faculties and activities by bus, metro or bike, many options available. Live Montreal like a local! <br />Bright apartment on the second floor of a duplex in a central area of Montreal. Family atmosphere, commercial street just a stone's throw away. Quick and easy access to universities and activities  by bus, metro, or bike.","{
+Bright 2 bedroom flat in a friendly and authentic neighborhood! All you need within a short walk to the animated local commercial street. Quickly get to Montreal's best faculties and activities by bus, metro or bike, many options available. Live Montreal like a local! <br />Bright apartment on the second floor of a duplex in a central area of Montreal. Family atmosphere, commercial street just a stone's throw away. Quick and easy access to universities and activities  by bus, metro, or bike.","```json
+{
     ""Name"": ""Bright flat in Montreal - Appartement lumineux"",
     ""Location"": ""Montreal"",
     ""MainCharacteristic"": ""Bright 2 bedroom flat in a friendly and authentic neighborhood"",
     ""Type"": ""Apartment""
-}"
+}
+```"
 637533.0,Charming Downtown Montreal,Charm & standing for your stay in Montreal<br /><br />Our apartments have been completely renovated and are located in a private mansion dating back to 1870<br /><br />Officially registered as tourist residences and a proud member of the CITQ (Corporation de l'industrie touristique du Québec)<br /><br />Private courtyard parking is a rarity in downtown Montreal,"Charming Downtown Montreal
 Charm & standing for your stay in Montreal<br /><br />Our apartments have been completely renovated and are located in a private mansion dating back to 1870<br /><br />Officially registered as tourist residences and a proud member of the CITQ (Corporation de l'industrie touristique du Québec)<br /><br />Private courtyard parking is a rarity in downtown Montreal","{
     ""Name"": ""Charming Downtown Montreal"",
     ""Location"": ""Montreal"",
-    ""MainCharacteristic"": ""Completely renovated apartments in a private mansion from 1870 with private courtyard parking"",
-    ""Type"": ""Tourist residences""
+    ""MainCharacteristic"": ""Completely renovated apartments in a private mansion from 1870"",
+    ""Type"": ""Tourist residence""
 }"
 7.822779765606516e+17,Stunning 2BR - Old Montreal 2A,"Welcome to Hotel Le Moyne; Experience the allure of Old Montreal as you wake up to breathtaking views of its historical charm. This Cozy 2-bedroom apartment seamlessly blends contemporary style with the preservation of the building's rich heritage. Perfectly suited for couples or business travelers, our 2-bedroom apartment offers two comfortable queen size beds and a full washroom, ensuring a delightful stay.","Stunning 2BR - Old Montreal 2A
-Welcome to Hotel Le Moyne; Experience the allure of Old Montreal as you wake up to breathtaking views of its historical charm. This Cozy 2-bedroom apartment seamlessly blends contemporary style with the preservation of the building's rich heritage. Perfectly suited for couples or business travelers, our 2-bedroom apartment offers two comfortable queen size beds and a full washroom, ensuring a delightful stay.","{
+Welcome to Hotel Le Moyne; Experience the allure of Old Montreal as you wake up to breathtaking views of its historical charm. This Cozy 2-bedroom apartment seamlessly blends contemporary style with the preservation of the building's rich heritage. Perfectly suited for couples or business travelers, our 2-bedroom apartment offers two comfortable queen size beds and a full washroom, ensuring a delightful stay.","```json
+{
     ""Name"": ""Hotel Le Moyne"",
     ""Location"": ""Old Montreal"",
     ""MainCharacteristic"": ""Breathtaking views of historical charm"",
     ""Type"": ""2-bedroom apartment""
-}"
-9.48667346553696e+17,Charming hotel near old port&Quartier 207,"Perfectly located for business or leisure, Le Coach Hôtel Montreal is right next to the Old Montreal,  Quartier des Spectacles and Berri Uqam subway station. Nearby you’ll find many places to explore in the old city of Montreal in downtown area including Notre-Dame Basilica. Enjoy the newly renovated rooms with mcm teak & natural wood furnishing, knowing every comfort is provided. Enjoy easy access to popular historic places and restaurants from this charming place to stay.","Charming hotel near old port&Quartier 207
-Perfectly located for business or leisure, Le Coach Hôtel Montreal is right next to the Old Montreal,  Quartier des Spectacles and Berri Uqam subway station. Nearby you’ll find many places to explore in the old city of Montreal in downtown area including Notre-Dame Basilica. Enjoy the newly renovated rooms with mcm teak & natural wood furnishing, knowing every comfort is provided. Enjoy easy access to popular historic places and restaurants from this charming place to stay.","```json
-{
-    ""Name"": ""Le Coach Hôtel Montreal"",
-    ""Location"": ""Old Montreal, Quartier des Spectacles, Berri Uqam subway station, Montreal"",
-    ""MainCharacteristic"": ""Newly renovated rooms with mcm teak & natural wood furnishing"",
-    ""Type"": ""Hotel""
-}
-```"
-8.262463992288686e+17,"Apartment Downtown, Montreal, QC","Nice and cozy apartment with all the comforts, located in the heart of downtown. great variety of restaurants, cafes, and shops at your doorstep.<br />5 min walking to metro station (Places-des-Arts and McGill)<br /><br />- Free WIFI <br />- Fully equipped kitchen<br />- Towels, body wash, shampoo, hair conditioning, hair dryer and more available<br />- 1 Queen size Bed <br />- Smart TV<br />- Work Station<br />- Laundry room available in the building<br /><br />Free street parking spots around the building, or indoor&outdoor parking options $","Apartment Downtown, Montreal, QC
-Nice and cozy apartment with all the comforts, located in the heart of downtown. great variety of restaurants, cafes, and shops at your doorstep.<br />5 min walking to metro station (Places-des-Arts and McGill)<br /><br />- Free WIFI <br />- Fully equipped kitchen<br />- Towels, body wash, shampoo, hair conditioning, hair dryer and more available<br />- 1 Queen size Bed <br />- Smart TV<br />- Work Station<br />- Laundry room available in the building<br /><br />Free street parking spots around the building, or indoor&outdoor parking options $","{
-    ""Name"": ""Apartment Downtown"",
-    ""Location"": ""Montreal, QC"",
-    ""MainCharacteristic"": ""Nice and cozy apartment with all the comforts, located in the heart of downtown. Great variety of restaurants, cafes, and shops."",
-    ""Type"": ""Apartment""
-}"
-8.691434538244125e+17,Casa 203 | MileEnd apartment facing Parc Lahaie,"Stay in your fully furnished apartment in the heart of Montreal’s iconic Plateau Mont-Royal. Surrounded by the city's landmarks, facing Mile-End's famous Lahaie Parc.<br /><br />Historic early 20th century building, fully renovated in 2021 in charming apartments with plenty of natural light, including in hallways, heated floor garden. A common rooftop terrace with a breathtaking 360° view of Montreal.<br /><br />Ideal for one who needs a pied-à-terre in Montreal, corporate, or vacation stays.<br />31 days minimum","Casa 203 | MileEnd apartment facing Parc Lahaie
-Stay in your fully furnished apartment in the heart of Montreal’s iconic Plateau Mont-Royal. Surrounded by the city's landmarks, facing Mile-End's famous Lahaie Parc.<br /><br />Historic early 20th century building, fully renovated in 2021 in charming apartments with plenty of natural light, including in hallways, heated floor garden. A common rooftop terrace with a breathtaking 360° view of Montreal.<br /><br />Ideal for one who needs a pied-à-terre in Montreal, corporate, or vacation stays.<br />31 days minimum","```json
-{
-    ""Name"": ""Casa 203 | MileEnd apartment facing Parc Lahaie"",
-    ""Location"": ""Montreal"",
-    ""MainCharacteristic"": ""Surrounded by landmarks, facing Mile-End's famous Lahaie Parc"",
-    ""Type"": ""Apartment""
-}
-```"
-1075759.0,Quiet apartment in  ‘’the village’’,,"Quiet apartment in  ‘’the village’’
-","{
-    ""Name"": ""Quiet apartment in 'the village'"",
-    ""Location"": """",
-    ""MainCharacteristic"": ""Tranquilidad"",
-    ""Type"": ""Apartamento""
-}"
-7070701.0,Bright condo near downtown Montreal Ref# 302843,This condo is perfect for a small family or couple. It has a king and double beds as well as a comfortable sofa. <br />Just minutes away from downtown by public transportation or car. The kitchen is fully equiped and washer/dryer are at your disposal.<br /><br />Registration certificate: <br />302843 exp: 10/31/24,"Bright condo near downtown Montreal Ref# 302843
-This condo is perfect for a small family or couple. It has a king and double beds as well as a comfortable sofa. <br />Just minutes away from downtown by public transportation or car. The kitchen is fully equiped and washer/dryer are at your disposal.<br /><br />Registration certificate: <br />302843 exp: 10/31/24","```json
-{
-    ""Name"": ""Bright condo near downtown Montreal Ref# 302843"",
-    ""Location"": ""Montreal"",
-    ""MainCharacteristic"": ""Fully equipped kitchen and washer/dryer available"",
-    ""Type"": ""Condo""
-}
-```"
-1.028958426803146e+18,Quartier des spectacles 3BDR 3BA,"Elegant, modern, historic; located at the crossroads of all 4 ICONIC neighbourhoods; old port, Plateau, Village, Downtown MTL.<br /><br />Enjoy some of the best nightlife, restaurants and pedestrian only streets in Montreal.<br /><br />Walking distance to<br />Berri Uqam: MAIN hub subway train for the entire city (2min)<br />Downtown (1 min)<br />Plateau (5 min)<br />Place des arts (1 min)<br />Grocery/convenience store and SAQ(liquor/wine) (2 mins)<br /><br />Our unit books quickly, act now!","Quartier des spectacles 3BDR 3BA
-Elegant, modern, historic; located at the crossroads of all 4 ICONIC neighbourhoods; old port, Plateau, Village, Downtown MTL.<br /><br />Enjoy some of the best nightlife, restaurants and pedestrian only streets in Montreal.<br /><br />Walking distance to<br />Berri Uqam: MAIN hub subway train for the entire city (2min)<br />Downtown (1 min)<br />Plateau (5 min)<br />Place des arts (1 min)<br />Grocery/convenience store and SAQ(liquor/wine) (2 mins)<br /><br />Our unit books quickly, act now!","{
-    ""Name"": ""Quartier des spectacles 3BDR 3BA"",
-    ""Location"": ""Montreal"",
-    ""MainCharacteristic"": ""Located at the crossroads of all 4 iconic neighborhoods"",
-    ""Type"": ""Apartment""
-}"
-30580781.0,Small 2 bedroom apartment Angrignon metro station,"Cosy apartment in a calm and secure residential area close to parks, shopping mall and supermarkets. <br />It will take you just 20 minutes to get to downtown by metro. <br />Fast access from airport - just 15 minutes driving.","Small 2 bedroom apartment Angrignon metro station
-Cosy apartment in a calm and secure residential area close to parks, shopping mall and supermarkets. <br />It will take you just 20 minutes to get to downtown by metro. <br />Fast access from airport - just 15 minutes driving.","{
-    ""Name"": ""Cozy 2-Bedroom Apartment"",
-    ""Location"": ""Angrignon metro station"",
-    ""MainCharacteristic"": ""Close to parks, shopping mall and supermarkets"",
-    ""Type"": ""Apartment""
-}"
-53919985.0,Stylish 2BD/2BA Brand New in Mile End/ Plateau,"Numero de license/Etablissement de CITQ: 296490<br /><br />Modern fully renovated two bedrooms, two bathroom condo in the trendy plateau Mont-Royal/Mile End with a refined decor and a relaxing atmosphere. Walking distance from the Mount-Royal Mountain, the city’s biggest and most beautiful park, and only a minute away from the public transport that will take you to the city center and its festivals in less than 10 minutes","Stylish 2BD/2BA Brand New in Mile End/ Plateau
-Numero de license/Etablissement de CITQ: 296490<br /><br />Modern fully renovated two bedrooms, two bathroom condo in the trendy plateau Mont-Royal/Mile End with a refined decor and a relaxing atmosphere. Walking distance from the Mount-Royal Mountain, the city’s biggest and most beautiful park, and only a minute away from the public transport that will take you to the city center and its festivals in less than 10 minutes","{
-    ""Name"": ""Stylish 2BD/2BA Brand New in Mile End/ Plateau"",
-    ""Location"": ""Plateau Mont-Royal/Mile End"",
-    ""MainCharacteristic"": ""Modern fully renovated two bedrooms, two bathroom condo"",
-    ""Type"": ""Condo""
-}"
-33709190.0,Chambre familiale avec lit de bébé et lit simple,"Beautiful huge room in the Plateau for 3 adults or 2 adults plus one child and a baby, this room is on the sub floor. Making it a very quiet room. With access the all common areas, huge 3 floor home. We have pets a small dog, cats, so yes, your dog or cat are welcome, if you’re allergic, do not rent here.<br />Arrival 13:00<br />Departure 11:00<br />See my other adds.","Chambre familiale avec lit de bébé et lit simple
-Beautiful huge room in the Plateau for 3 adults or 2 adults plus one child and a baby, this room is on the sub floor. Making it a very quiet room. With access the all common areas, huge 3 floor home. We have pets a small dog, cats, so yes, your dog or cat are welcome, if you’re allergic, do not rent here.<br />Arrival 13:00<br />Departure 11:00<br />See my other adds.","{
-    ""Name"": ""Beautiful huge room in the Plateau"",
-    ""Location"": ""Plateau"",
-    ""MainCharacteristic"": ""Chambre familiale avec lit de bébé et lit simple"",
-    ""Type"": ""Private room""
-}"
-1.0329150085607136e+18,Downtown private terrace rooftop penthouse,"You’ll experience the ultimate in modern and luxurious living in the heart of Montreal. Book your stay today and start enjoying the best of both worlds, with the comfort of a fully furnished apartment and the convenience of a bustling downtown lifestyle.","Downtown private terrace rooftop penthouse
-You’ll experience the ultimate in modern and luxurious living in the heart of Montreal. Book your stay today and start enjoying the best of both worlds, with the comfort of a fully furnished apartment and the convenience of a bustling downtown lifestyle.","{
-    ""Name"": ""Downtown private terrace rooftop penthouse"",
-    ""Location"": ""Montreal"",
-    ""MainCharacteristic"": ""Ultimate modern and luxurious living"",
-    ""Type"": ""Apartment""
-}"
-38899953.0,"St. Henri Room, near Downtown/Metro + Free parking","Private room in a cozy apartment situated in the unique neighbourhood of St. Henri. Just steps away from the metro that will get you downtown or to the charming Old Port of Montréal within 20 minutes. Fresh produce from the Atwater market or lovely strolls on the Lachine Canal are both minutes away.<br /><br />Free parking in the neighborhood near the apartment and free coffee and tea included. Blazing fast wifi, entertainment and Private balcony to sit back and relax. <br />Message and ask for SPECIAL OFFERS!","St. Henri Room, near Downtown/Metro + Free parking
-Private room in a cozy apartment situated in the unique neighbourhood of St. Henri. Just steps away from the metro that will get you downtown or to the charming Old Port of Montréal within 20 minutes. Fresh produce from the Atwater market or lovely strolls on the Lachine Canal are both minutes away.<br /><br />Free parking in the neighborhood near the apartment and free coffee and tea included. Blazing fast wifi, entertainment and Private balcony to sit back and relax. <br />Message and ask for SPECIAL OFFERS!","```json
-{
-    ""Name"": ""St. Henri Room"",
-    ""Location"": ""Montréal"",
-    ""MainCharacteristic"": ""Steps away from metro, free parking, balcony"",
-    ""Type"": ""Private room in apartment""
-}
-```"
-6.263168400903434e+17,Charmant logement à Montréal,"Welcome to this charming completely renovated condo, nestled in the quiet and sought-after area of Pointe de l 'Île in Montreal. With 3 spacious bedrooms and modern bathroom, this apartment offers an elegant and functional living space. Its proximity to services and amenities ensures a practical and pleasant lifestyle. Don't pass this unique occasion to live in a place combining comfort, style and serenity. Contact us with any questions!","Charmant logement à Montréal
-Welcome to this charming completely renovated condo, nestled in the quiet and sought-after area of Pointe de l 'Île in Montreal. With 3 spacious bedrooms and modern bathroom, this apartment offers an elegant and functional living space. Its proximity to services and amenities ensures a practical and pleasant lifestyle. Don't pass this unique occasion to live in a place combining comfort, style and serenity. Contact us with any questions!","```json
-{
-    ""Name"": ""Charming Condo in Pointe de l'Île"",
-    ""Location"": ""Montreal"",
-    ""MainCharacteristic"": ""Completely renovated with 3 spacious bedrooms"",
-    ""Type"": ""Condo""
 }
 ```"
