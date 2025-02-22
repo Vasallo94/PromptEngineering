@@ -2,83 +2,79 @@ import json
 import os
 import time
 
-import openai
 import requests
 from dotenv import load_dotenv
+from openai import OpenAI
 
-load_dotenv(os.path.join('..', '.env'))
+load_dotenv(os.path.join("..", ".env"))
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# Definir las variables de entorno
 auth_token = os.getenv("AUTH_TOKEN")
 
 
 headers = {"Content-Type": "application/json", "Authorization": f"Bearer {auth_token}"}
 url = "https://api.awanllm.com/v1/chat/completions"  # URL for the API
 
-def preguntar_gpt(prompt,
-    sys_prompt= "Eres un asistente virtual que ayuda a los usuarios a obtener respuestas a sus preguntas.",
-    model="gpt-3.5-turbo",
+# Inicializar el cliente con la nueva interfaz
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+
+def preguntar_gpt(
+    prompt,
+    sys_prompt="Eres un asistente útil.",
+    model="gpt-4o-mini",
+    temperature=0.7,
     max_retries=3,
-    initial_delay=10,
     timeout=60,
     rate_limit_delay=5,
 ):
     """
-    Envía un prompt a un modelo GPT y recupera la respuesta.
+    Envía una solicitud a la API de OpenAI utilizando el modelo y parámetros indicados,
+    utilizando la nueva interfaz de openai==1.0.0+.
+
     Args:
-        sys_prompt (str): El prompt del sistema para enviar al modelo GPT.
-        prompt (str): El prompt del usuario para enviar al modelo GPT.
-        model (str, opcional): El modelo GPT a utilizar. Por defecto es "gpt-3.5-turbo".
-        max_retries (int, opcional): El número máximo de reintentos en caso de errores. Por defecto es 3.
-        initial_delay (int, opcional): El retraso inicial entre reintentos en segundos. Por defecto es 10.
-        timeout (int, opcional): El tiempo de espera para la solicitud HTTP en segundos. Por defecto es 60.
-        rate_limit_delay (int, opcional): El retraso entre reintentos en caso de errores de límite de tasa. Por defecto es 5.
+        sys_prompt (str): Mensaje de sistema para el modelo.
+        prompt (str): Mensaje del usuario.
+        model (str, optional): Modelo a utilizar. Defaults to "gpt-3.5-turbo".
+        temperature (float, optional): Valor de temperatura para la generación. Defaults to 0.7.
+        max_retries (int, optional): Número máximo de reintentos en caso de error. Defaults to 3.
+        timeout (int, optional): Tiempo máximo de espera para la solicitud en segundos. Defaults to 60.
+        rate_limit_delay (int, optional): Tiempo de espera al alcanzar el límite de solicitudes en segundos. Defaults to 5.
+
     Returns:
-        str: La respuesta generada por el modelo GPT.
-    Raises:
-        openai.error.OpenAIError: Si ocurre un error específico de OpenAI durante la solicitud.
-        requests.exceptions.Timeout: Si la solicitud agota el tiempo de espera.
-        Exception: Si ocurre un error inesperado.
+        str or None: Respuesta generada por el modelo o None si falla la solicitud.
     """
     for attempt in range(max_retries):
         try:
-            response = openai.ChatCompletion.create(
+            response = client.chat.completions.create(
                 model=model,
                 messages=[
                     {"role": "system", "content": sys_prompt},
                     {"role": "user", "content": prompt},
                 ],
+                temperature=temperature,
                 timeout=timeout,
             )
+            # Acceder al contenido usando la nueva estructura del objeto
             return response.choices[0].message.content
-        except openai.error.RateLimitError as e:
-            print(
-                f"Intento {attempt + 1} fallido. Error: {e}. Límite de tasa excedido."
-            )
-            delay = rate_limit_delay
-            print(f"Reintentando en {delay} segundos...")
-            time.sleep(delay)
-        except openai.error.APIError as e:
-            print(f"Intento {attempt + 1} fallido. Error de API: {e}")
-            delay = initial_delay
-            print(f"Reintentando en {delay} segundos...")
-            time.sleep(delay)
-        except requests.exceptions.Timeout as e:
-            print(f"Intento {attempt + 1} fallido por tiempo de espera excedido: {e}")
-            if attempt < max_retries - 1:
-                print("Reintentando...")
-            time.sleep(initial_delay * (2**attempt))
         except Exception as e:
-            print(f"Error no esperado: {e}")
-            if attempt == max_retries - 1:
-                return None  # Retornar None solo después de todos los intentos
-    print("No se pudo completar la solicitud después de varios intentos.")
+            # Puedes agregar lógica condicional según el mensaje de error si lo deseas.
+            print(
+                f"Intento {attempt + 1} fallido: {e}. Reintentando en {rate_limit_delay} segundos..."
+            )
+            time.sleep(rate_limit_delay)
+
+    print("No se pudo obtener una respuesta tras varios intentos.")
     return None
 
 
-
 def preguntar_llama(
-    sys_prompt, prompt, max_retries=3, initial_delay=10, timeout=60, rate_limit_delay=5
+    prompt,
+    sys_prompt="Eres un asistente útil",
+    max_retries=3,
+    initial_delay=10,
+    timeout=60,
+    rate_limit_delay=5,
 ):
     """
     Sends a prompt to an AI model and retrieves the response.
