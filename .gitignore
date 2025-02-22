@@ -2,3 +2,8 @@
 /venv
 /test.txt
 /presentacion_modulo.txt
+/.venv
+/.vscode
+/.ipynb_checkpoints
+/.pytest_cache
+/.mypy_cache
