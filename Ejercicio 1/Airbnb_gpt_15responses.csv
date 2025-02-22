@@ -9,18 +9,20 @@ Bright 2 bedroom flat in a friendly and authentic neighborhood! All you need wit
 }
 ```"
 637533.0,Charming Downtown Montreal,Charm & standing for your stay in Montreal<br /><br />Our apartments have been completely renovated and are located in a private mansion dating back to 1870<br /><br />Officially registered as tourist residences and a proud member of the CITQ (Corporation de l'industrie touristique du Québec)<br /><br />Private courtyard parking is a rarity in downtown Montreal,"Charming Downtown Montreal
-Charm & standing for your stay in Montreal<br /><br />Our apartments have been completely renovated and are located in a private mansion dating back to 1870<br /><br />Officially registered as tourist residences and a proud member of the CITQ (Corporation de l'industrie touristique du Québec)<br /><br />Private courtyard parking is a rarity in downtown Montreal","{
+Charm & standing for your stay in Montreal<br /><br />Our apartments have been completely renovated and are located in a private mansion dating back to 1870<br /><br />Officially registered as tourist residences and a proud member of the CITQ (Corporation de l'industrie touristique du Québec)<br /><br />Private courtyard parking is a rarity in downtown Montreal","```json
+{
     ""Name"": ""Charming Downtown Montreal"",
     ""Location"": ""Montreal"",
-    ""MainCharacteristic"": ""Completely renovated apartments in a private mansion from 1870"",
+    ""MainCharacteristic"": ""Completely renovated apartments in a private mansion dating back to 1870"",
     ""Type"": ""Tourist residence""
-}"
+}
+```"
 7.822779765606516e+17,Stunning 2BR - Old Montreal 2A,"Welcome to Hotel Le Moyne; Experience the allure of Old Montreal as you wake up to breathtaking views of its historical charm. This Cozy 2-bedroom apartment seamlessly blends contemporary style with the preservation of the building's rich heritage. Perfectly suited for couples or business travelers, our 2-bedroom apartment offers two comfortable queen size beds and a full washroom, ensuring a delightful stay.","Stunning 2BR - Old Montreal 2A
 Welcome to Hotel Le Moyne; Experience the allure of Old Montreal as you wake up to breathtaking views of its historical charm. This Cozy 2-bedroom apartment seamlessly blends contemporary style with the preservation of the building's rich heritage. Perfectly suited for couples or business travelers, our 2-bedroom apartment offers two comfortable queen size beds and a full washroom, ensuring a delightful stay.","```json
 {
     ""Name"": ""Hotel Le Moyne"",
     ""Location"": ""Old Montreal"",
     ""MainCharacteristic"": ""Breathtaking views of historical charm"",
-    ""Type"": ""2-bedroom apartment""
+    ""Type"": ""Apartment""
 }
 ```"
